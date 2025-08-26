@@ -1,0 +1,17 @@
+{
+  "name": "linea-bot",
+  "version": "1.0.0",
+  "description": "Auto transfer ERC-20 tokens on Linea",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "ethers": "^5.8.0",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.3",
+    "express": "^4.19.2"
+  }
+}
